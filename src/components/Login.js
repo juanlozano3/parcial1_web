@@ -20,7 +20,7 @@ const Login = () => {
         if (username === credenciales.username && password === credenciales.password) {
             navigate('/robots'); 
         } else {
-            setError('Usuario o contraseña incorrectos');
+            setError("The provided credentials are incorrect.");
         }
     };
 
